@@ -1,6 +1,6 @@
-package com.kmilfeld.imagedisplaycodingexercise.data;
+package com.kmilfeld.imagedisplaysampleapp.data;
 
-import com.kmilfeld.imagedisplaycodingexercise.network.QueryFlickrAsyncTask;
+import com.kmilfeld.imagedisplaysampleapp.network.QueryFlickrAsyncTask;
 
 import java.util.ArrayList;
 

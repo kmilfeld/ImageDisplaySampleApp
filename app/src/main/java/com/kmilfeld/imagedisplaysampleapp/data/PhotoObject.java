@@ -1,4 +1,4 @@
-package com.kmilfeld.imagedisplaycodingexercise.data;
+package com.kmilfeld.imagedisplaysampleapp.data;
 
 /**
  * Object representation of a Photo and all of it associated data.

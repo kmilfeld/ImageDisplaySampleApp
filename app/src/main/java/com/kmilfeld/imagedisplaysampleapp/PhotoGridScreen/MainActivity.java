@@ -1,12 +1,12 @@
-package com.kmilfeld.imagedisplaycodingexercise.PhotoGridScreen;
+package com.kmilfeld.imagedisplaysampleapp.PhotoGridScreen;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
-import com.kmilfeld.imagedisplaycodingexercise.R;
-import com.kmilfeld.imagedisplaycodingexercise.util.Logger;
+import com.kmilfeld.imagedisplaysampleapp.R;
+import com.kmilfeld.imagedisplaysampleapp.util.Logger;
 
 /**
  * The Main Activity for the ImageDisplayCodingExercise application.  This

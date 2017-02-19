@@ -1,4 +1,4 @@
-package com.kmilfeld.imagedisplaycodingexercise.PhotoGridScreen;
+package com.kmilfeld.imagedisplaysampleapp.PhotoGridScreen;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import com.kmilfeld.imagedisplaycodingexercise.R;
-import com.kmilfeld.imagedisplaycodingexercise.data.PhotoManager;
+import com.kmilfeld.imagedisplaysampleapp.R;
+import com.kmilfeld.imagedisplaysampleapp.data.PhotoManager;
 
 /**
  * Fragment for displaying photos to the user in a grid

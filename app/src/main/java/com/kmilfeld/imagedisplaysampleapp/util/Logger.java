@@ -1,4 +1,4 @@
-package com.kmilfeld.imagedisplaycodingexercise.util;
+package com.kmilfeld.imagedisplaysampleapp.util;
 
 import android.util.Log;
 

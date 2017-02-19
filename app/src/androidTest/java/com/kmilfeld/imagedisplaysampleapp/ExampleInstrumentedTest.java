@@ -1,4 +1,4 @@
-package com.kmilfeld.imagedisplaycodingexercise;
+package com.kmilfeld.imagedisplaysampleapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

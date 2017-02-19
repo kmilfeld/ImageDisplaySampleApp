@@ -1,4 +1,4 @@
-package com.kmilfeld.imagedisplaycodingexercise.PhotoGridScreen;
+package com.kmilfeld.imagedisplaysampleapp.PhotoGridScreen;
 
 import android.content.Context;
 import android.view.View;
@@ -6,8 +6,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
-import com.kmilfeld.imagedisplaycodingexercise.data.PhotoManager;
-import com.kmilfeld.imagedisplaycodingexercise.data.PhotoObject;
+import com.kmilfeld.imagedisplaysampleapp.data.PhotoManager;
+import com.kmilfeld.imagedisplaysampleapp.data.PhotoObject;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

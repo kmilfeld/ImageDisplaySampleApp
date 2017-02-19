@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="com.kmilfeld.imagedisplaycodingexercise.PhotoGridScreen.MainActivity">
+        tools:context="com.kmilfeld.imagedisplaysampleapp.com.kmilfeld.imagedisplaysampleapp.PhotoGridScreen.MainActivity">
 
     <android.support.v7.widget.Toolbar
             android:id="@+id/my_toolbar"
@@ -54,7 +54,7 @@
         </LinearLayout>
 
         <fragment
-                android:name="com.kmilfeld.imagedisplaycodingexercise.PhotoGridScreen.PhotoGridFragment"
+                android:name="com.kmilfeld.imagedisplaysampleapp.PhotoGridScreen.PhotoGridFragment"
                 android:id="@+id/photo_grid_fragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>

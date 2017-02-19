@@ -1,11 +1,11 @@
-package com.kmilfeld.imagedisplaycodingexercise.PhotoGridScreen;
+package com.kmilfeld.imagedisplaysampleapp.PhotoGridScreen;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
-import com.kmilfeld.imagedisplaycodingexercise.R;
+import com.kmilfeld.imagedisplaysampleapp.R;
 import com.squareup.picasso.Picasso;
 
 /**

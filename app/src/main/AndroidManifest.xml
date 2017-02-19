@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kmilfeld.imagedisplaycodingexercise" >
+    package="com.kmilfeld.imagedisplaysampleapp" >
 
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name=".PhotoGridScreen.MainActivity" >
+        <activity android:name="com.kmilfeld.imagedisplaysampleapp.PhotoGridScreen.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".PhotoGridScreen.FullScreenPhotoActivity"/>
+        <activity android:name="com.kmilfeld.imagedisplaysampleapp.PhotoGridScreen.FullScreenPhotoActivity"/>
     </application>
 
 </manifest>

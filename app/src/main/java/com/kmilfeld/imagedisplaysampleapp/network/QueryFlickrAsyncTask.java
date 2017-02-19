@@ -1,8 +1,8 @@
-package com.kmilfeld.imagedisplaycodingexercise.network;
+package com.kmilfeld.imagedisplaysampleapp.network;
 
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
-import com.kmilfeld.imagedisplaycodingexercise.data.PhotoObject;
+import com.kmilfeld.imagedisplaysampleapp.data.PhotoObject;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;

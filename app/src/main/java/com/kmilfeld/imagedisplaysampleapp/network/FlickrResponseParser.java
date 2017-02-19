@@ -1,7 +1,7 @@
-package com.kmilfeld.imagedisplaycodingexercise.network;
+package com.kmilfeld.imagedisplaysampleapp.network;
 
-import com.kmilfeld.imagedisplaycodingexercise.data.PhotoObject;
-import com.kmilfeld.imagedisplaycodingexercise.util.Logger;
+import com.kmilfeld.imagedisplaysampleapp.data.PhotoObject;
+import com.kmilfeld.imagedisplaysampleapp.util.Logger;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

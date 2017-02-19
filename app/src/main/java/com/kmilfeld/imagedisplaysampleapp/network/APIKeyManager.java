@@ -1,4 +1,4 @@
-package com.kmilfeld.imagedisplaycodingexercise.network;
+package com.kmilfeld.imagedisplaysampleapp.network;
 
 /**
  * Created by karenm on 2/19/17.
