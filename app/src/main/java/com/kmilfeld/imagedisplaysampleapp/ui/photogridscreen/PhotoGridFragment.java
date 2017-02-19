@@ -1,14 +1,15 @@
 package com.kmilfeld.imagedisplaysampleapp.ui.photogridscreen;
 
 import android.app.Fragment;
+import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.GridView;
 import com.kmilfeld.imagedisplaysampleapp.R;
 import com.kmilfeld.imagedisplaysampleapp.data.PhotoManager;
+import com.kmilfeld.imagedisplaysampleapp.databinding.PhotoGridFragmentBinding;
 import com.kmilfeld.imagedisplaysampleapp.ui.fullphotoscreen.FullScreenPhotoActivity;
 
 /**
@@ -36,13 +37,14 @@ public class PhotoGridFragment extends Fragment
     {
         super.onCreate( savedInstanceState );
 
-        View fragmentView = inflater.inflate( R.layout.photo_grid_fragment, null );
+        PhotoGridFragmentBinding binding = DataBindingUtil.inflate( inflater, R.layout.photo_grid_fragment, container, false );
 
-        GridView gridview = (GridView) fragmentView.findViewById( R.id.gridview );
+        // Setup the image data adapter
         mAdapter = new ImageAdapter( getActivity() );
-        gridview.setAdapter( mAdapter );
+        binding.gridview.setAdapter( mAdapter );
 
-        gridview.setOnItemClickListener( new AdapterView.OnItemClickListener()
+        // When we click on a photo, launch the full screen photo viewer
+        binding.gridview.setOnItemClickListener( new AdapterView.OnItemClickListener()
         {
             public void onItemClick( AdapterView<?> parent, View v,
                     int position, long id )
@@ -51,7 +53,7 @@ public class PhotoGridFragment extends Fragment
             }
         } );
 
-        return fragmentView;
+        return binding.getRoot();
     }
 
     /**
