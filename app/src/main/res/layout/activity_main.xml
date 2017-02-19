@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="com.kmilfeld.imagedisplaysampleapp.com.kmilfeld.imagedisplaysampleapp.PhotoGridScreen.MainActivity">
+        tools:context="com.kmilfeld.imagedisplaysampleapp.photogridscreen.MainActivity">
 
     <android.support.v7.widget.Toolbar
             android:id="@+id/my_toolbar"
