@@ -1,4 +1,4 @@
-package com.kmilfeld.imagedisplaysampleapp.photogridscreen;
+package com.kmilfeld.imagedisplaysampleapp.ui.photogridscreen;
 
 import android.content.Context;
 import android.view.View;

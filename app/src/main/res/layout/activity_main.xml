@@ -9,7 +9,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            tools:context="com.kmilfeld.imagedisplaysampleapp.photogridscreen.MainActivity">
+            tools:context=".ui.photogridscreen.MainActivity">
 
         <android.support.v7.widget.Toolbar
                 android:id="@+id/my_toolbar"
@@ -56,7 +56,7 @@
             </LinearLayout>
 
             <fragment
-                    android:name="com.kmilfeld.imagedisplaysampleapp.photogridscreen.PhotoGridFragment"
+                    android:name="com.kmilfeld.imagedisplaysampleapp.ui.photogridscreen.PhotoGridFragment"
                     android:id="@+id/photo_grid_fragment"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>

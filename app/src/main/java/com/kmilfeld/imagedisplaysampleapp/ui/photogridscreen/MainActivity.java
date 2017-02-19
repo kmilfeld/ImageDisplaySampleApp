@@ -1,4 +1,4 @@
-package com.kmilfeld.imagedisplaysampleapp.photogridscreen;
+package com.kmilfeld.imagedisplaysampleapp.ui.photogridscreen;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;

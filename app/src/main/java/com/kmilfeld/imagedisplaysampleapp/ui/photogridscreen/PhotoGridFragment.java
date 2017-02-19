@@ -1,4 +1,4 @@
-package com.kmilfeld.imagedisplaysampleapp.photogridscreen;
+package com.kmilfeld.imagedisplaysampleapp.ui.photogridscreen;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import com.kmilfeld.imagedisplaysampleapp.R;
 import com.kmilfeld.imagedisplaysampleapp.data.PhotoManager;
+import com.kmilfeld.imagedisplaysampleapp.ui.fullphotoscreen.FullScreenPhotoActivity;
 
 /**
  * Fragment for displaying photos to the user in a grid

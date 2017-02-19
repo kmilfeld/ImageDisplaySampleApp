@@ -1,11 +1,10 @@
-package com.kmilfeld.imagedisplaysampleapp.photogridscreen;
+package com.kmilfeld.imagedisplaysampleapp.ui.fullphotoscreen;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ImageView;
 import com.kmilfeld.imagedisplaysampleapp.R;
 import com.kmilfeld.imagedisplaysampleapp.databinding.FullScreenPhotoActivityBinding;
 import com.squareup.picasso.Picasso;
