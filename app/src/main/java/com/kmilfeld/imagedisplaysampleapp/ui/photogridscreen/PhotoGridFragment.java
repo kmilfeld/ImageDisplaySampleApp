@@ -36,7 +36,7 @@ public class PhotoGridFragment extends Fragment
     {
         super.onCreate( savedInstanceState );
 
-        View fragmentView = inflater.inflate( R.layout.photo_list_fragment, null );
+        View fragmentView = inflater.inflate( R.layout.photo_grid_fragment, null );
 
         GridView gridview = (GridView) fragmentView.findViewById( R.id.gridview );
         mAdapter = new ImageAdapter( getActivity() );
