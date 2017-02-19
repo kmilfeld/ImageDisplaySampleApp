@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import com.kmilfeld.imagedisplaysampleapp.R;
-import com.kmilfeld.imagedisplaysampleapp.databinding.ActivityMainBinding;
+import com.kmilfeld.imagedisplaysampleapp.databinding.PhotoGridActivityBinding;
 import com.kmilfeld.imagedisplaysampleapp.util.Logger;
 
 /**
@@ -27,7 +27,7 @@ public class PhotoGridActivity extends AppCompatActivity
     protected void onCreate( Bundle savedInstanceState )
     {
         super.onCreate( savedInstanceState );
-        final ActivityMainBinding binding = DataBindingUtil.setContentView( this, R.layout.activity_main );
+        final PhotoGridActivityBinding binding = DataBindingUtil.setContentView( this, R.layout.photo_grid_activity );
 
         // Initialize the toolbar
         setSupportActionBar( binding.myToolbar );
