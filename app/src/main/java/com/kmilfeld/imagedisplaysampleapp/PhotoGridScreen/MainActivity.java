@@ -1,11 +1,13 @@
 package com.kmilfeld.imagedisplaysampleapp.photogridscreen;
 
+import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
 import com.kmilfeld.imagedisplaysampleapp.R;
+import com.kmilfeld.imagedisplaysampleapp.databinding.ActivityMainBinding;
 import com.kmilfeld.imagedisplaysampleapp.util.Logger;
 
 /**
@@ -27,7 +29,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate( Bundle savedInstanceState )
     {
         super.onCreate( savedInstanceState );
-        setContentView( R.layout.activity_main );
+        ActivityMainBinding binding = DataBindingUtil.setContentView( this, R.layout.activity_main );
 
         // Initialize the toolbar
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);

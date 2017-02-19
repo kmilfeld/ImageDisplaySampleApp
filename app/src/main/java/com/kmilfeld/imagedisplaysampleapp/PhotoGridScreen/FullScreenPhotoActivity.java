@@ -2,10 +2,12 @@ package com.kmilfeld.imagedisplaysampleapp.photogridscreen;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import com.kmilfeld.imagedisplaysampleapp.R;
+import com.kmilfeld.imagedisplaysampleapp.databinding.FullScreenPhotoActivityBinding;
 import com.squareup.picasso.Picasso;
 
 /**
@@ -45,7 +47,7 @@ public class FullScreenPhotoActivity extends AppCompatActivity
     {
         super.onCreate( savedInstanceState );
 
-        setContentView( R.layout.full_screen_photo_activity );
+        FullScreenPhotoActivityBinding binding = DataBindingUtil.setContentView( this, R.layout.full_screen_photo_activity );
         String url = getIntent().getStringExtra( INTENT_EXTRA_PHOTO_URL );
         ImageView imageView = (ImageView) findViewById( R.id.imageView );
 
