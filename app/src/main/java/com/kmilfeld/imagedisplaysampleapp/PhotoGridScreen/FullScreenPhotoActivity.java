@@ -49,10 +49,9 @@ public class FullScreenPhotoActivity extends AppCompatActivity
 
         FullScreenPhotoActivityBinding binding = DataBindingUtil.setContentView( this, R.layout.full_screen_photo_activity );
         String url = getIntent().getStringExtra( INTENT_EXTRA_PHOTO_URL );
-        ImageView imageView = (ImageView) findViewById( R.id.imageView );
 
         Picasso.with( this )
                 .load( url )
-                .into( imageView );
+                .into( binding.imageView );
     }
 }

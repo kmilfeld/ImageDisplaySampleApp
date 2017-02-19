@@ -3,9 +3,7 @@ package com.kmilfeld.imagedisplaysampleapp.photogridscreen;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.EditText;
 import com.kmilfeld.imagedisplaysampleapp.R;
 import com.kmilfeld.imagedisplaysampleapp.databinding.ActivityMainBinding;
 import com.kmilfeld.imagedisplaysampleapp.util.Logger;
@@ -29,30 +27,26 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate( Bundle savedInstanceState )
     {
         super.onCreate( savedInstanceState );
-        ActivityMainBinding binding = DataBindingUtil.setContentView( this, R.layout.activity_main );
+        final ActivityMainBinding binding = DataBindingUtil.setContentView( this, R.layout.activity_main );
 
         // Initialize the toolbar
-        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
-        setSupportActionBar( myToolbar );
+        setSupportActionBar( binding.myToolbar );
 
-        // Setup the search button
-        View searchButton = findViewById( R.id.search_button );
-        final EditText searchText = (EditText) findViewById( R.id.search_input );
-
-        // Get the grid fragment in order
+        // Get the grid fragment
         final PhotoGridFragment gridFragment = (PhotoGridFragment) getFragmentManager().findFragmentById( R.id.photo_grid_fragment );
 
         // When the search button is clicked on the toolbar, we want
         // the grid fragment to display photo results for that text
-        searchButton.setOnClickListener( new View.OnClickListener()
+        binding.searchButton.setOnClickListener( new View.OnClickListener()
         {
             @Override
             public void onClick( View v )
             {
-                String text = searchText.getText().toString();
+                String text = binding.searchInput.getText().toString();
 
                 Logger.verbose( "Getting images for text: " + text );
 
+                // TODO karenm - figure out how to do data binding with a fragment
                 gridFragment.displayPhotosFor( text );
             }
         } );
