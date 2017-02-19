@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.kmilfeld.imagedisplaysampleapp.PhotoGridScreen.MainActivity" >
+        <activity android:name="com.kmilfeld.imagedisplaysampleapp.photogridscreen.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.kmilfeld.imagedisplaysampleapp.PhotoGridScreen.FullScreenPhotoActivity"/>
+        <activity android:name="com.kmilfeld.imagedisplaysampleapp.photogridscreen.FullScreenPhotoActivity"/>
     </application>
 
 </manifest>

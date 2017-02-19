@@ -54,7 +54,7 @@
         </LinearLayout>
 
         <fragment
-                android:name="com.kmilfeld.imagedisplaysampleapp.PhotoGridScreen.PhotoGridFragment"
+                android:name="com.kmilfeld.imagedisplaysampleapp.photogridscreen.PhotoGridFragment"
                 android:id="@+id/photo_grid_fragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
